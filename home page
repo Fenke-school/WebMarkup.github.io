@@ -1,7 +1,7 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html lang="eng">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"/>
   <title>home page</title>
 
   <!-- Hier wordt de stylesheet gekoppeld -->
@@ -9,7 +9,7 @@
     rel="stylesheet" 
     type="text/css" 
     href="css/styles.css"
-  >
+  />
 </head>
 <body>
   <h1>so, let's start</h1>

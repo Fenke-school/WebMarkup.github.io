@@ -1,5 +1,7 @@
-Background color   3A3F42
-Foreground color   FFBD4F
+*{
+    background-color: #3A3F42;
+foreground-color:#FFBD4F;
+}
 Margin/padding/border?   1A623D
 radio button 267F50
 mes

@@ -5,5 +5,25 @@ radio button 267F50
 mes
 
 h1{
-    style="font-family:Instrument Serif"
+    style:"font-family:Instrument Serif"
+}
+
+h2{
+    style:"font-family:Instrument Serif"
+}
+
+h3{
+    style:"font-family:Instrument Serif"
+}
+
+h4{
+    style:"font-family:Instrument Serif"
+}
+
+h5{
+    style:"font-family:Instrument Serif"
+}
+
+h6{
+    style:"font-family:Instrument Serif"
 }

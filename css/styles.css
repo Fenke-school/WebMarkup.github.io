@@ -1,6 +1,6 @@
 body{
     background-color: #3A3F42;
-color: #FFBD4F !important;
+
 }
 
 Margin/padding/border?   1A623D
@@ -9,6 +9,7 @@ mes
 
 h1{
     style:"font-family:Instrument Serif"
+    color: #FFBD4F
 }
 
 h2{

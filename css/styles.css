@@ -1,9 +1,6 @@
 * {
     background-color: #3A3F42;
     color: #FFBD4F;
-}
-
-paragraph{
     font-family: "Inter", Arial;
 }
 
@@ -12,19 +9,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-Margin/padding/border?   1A623D
+<!--Margin/padding/border?   1A623D
 radio button 267F50
 mes
 grid garden for border and main?
 25% and 75% order?
 mobile 20% and 80%?
 text rechts maar beetje in het midden
-image bit smaller than the actual page, like 75 % of the main?
+image bit smaller than the actual page, like 75 % of the main?-->
 
-use img in aside tag and float to get it to the right
-aside   width: 30%;  padding-left: 15px;  margin-left: 15px;  float: right;
+<!--use img in aside tag and float to get it to the right
+aside   width: 30%;  padding-left: 15px;  margin-left: 15px;  float: right;-->
 
-use a nav for the header link pages
+<!--use a nav for the header link pages-->
 
-add a little border around the footer, plus a small icon which size is definded in a footer property.
-how do we put those next to eachother?
+<!--add a little border around the footer, plus a small icon which size is definded in a footer property.
+how do we put those next to eachother?-->
+
+<!--use a class property to make a space between the footer and article content? -->

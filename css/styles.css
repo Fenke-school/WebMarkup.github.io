@@ -1,6 +1,7 @@
-body{
+* {
     background-color: #3A3F42;
     color: #FFBD4F;
+    style:"font-family:Inter"
 }
 
 
@@ -36,3 +37,8 @@ grid garden for border and main?
 mobile 20% and 80%?
 text rechts maar beetje in het midden
 image bit smaller than the actual page, like 75 % of the main?
+
+use img in aside tag and float to get it to the right
+aside   width: 30%;  padding-left: 15px;  margin-left: 15px;  float: right;
+
+use a nav for the header link pages

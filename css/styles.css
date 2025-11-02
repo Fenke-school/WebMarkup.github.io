@@ -1,9 +1,11 @@
 * {
     background-color: #3A3F42;
     color: #FFBD4F;
-    style:"font-family:Inter"
 }
 
+paragraph{
+    style:"font-family:Inter"
+}
 
 h1{
     style:"font-family:Instrument Serif"

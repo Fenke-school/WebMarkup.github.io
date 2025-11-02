@@ -3,33 +3,14 @@
     color: #FFBD4F;
 }
 
-paragraph{
-    style:"font-family:Inter"
+p{
+    font-family: "Inter", sans-serif;
 }
 
-h1{
-    style:"font-family:Instrument Serif"
+h1, h2, h3, h4, h5, h6{
+    font-family: "Instrument Serif", serif;
 }
 
-h2{
-    style:"font-family:Instrument Serif"
-}
-
-h3{
-    style:"font-family:Instrument Serif"
-}
-
-h4{
-    style:"font-family:Instrument Serif"
-}
-
-h5{
-    style:"font-family:Instrument Serif"
-}
-
-h6{
-    style:"font-family:Instrument Serif"
-}
 
 Margin/padding/border?   1A623D
 radio button 267F50

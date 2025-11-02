@@ -8,7 +8,8 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Instrument Serif", serif;
 }
 
-<!--need a picture for the header, space between the header and body, and a border. also need space between the words-->
+<!--need a picture for the header, space between the header and body, and a border. also need space between the words.
+need the picture to contain a link. how? with alt text too ofc.-->
 
 <!--Margin/padding/border?   1A623D
 radio button 267F50
@@ -22,9 +23,12 @@ image bit smaller than the actual page, like 75 % of the main?-->
 <!--use img in aside tag and float to get it to the right
 aside   width: 30%;  padding-left: 15px;  margin-left: 15px;  float: right;-->
 
-<!--use a nav for the header link pages-->
+<!--use a nav for the header link pages.-->
 
 <!--add a little border around the footer, plus a small icon which size is definded in a footer property.
 how do we put those next to eachother?-->
 
 <!--use a class property to make a space between the footer and article content? -->
+
+<!--I do very much still need the mobile versions and need to figure out how to reposition the pictures.
+Maybe add an class in an img, can one do that?-->

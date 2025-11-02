@@ -42,3 +42,6 @@ use img in aside tag and float to get it to the right
 aside   width: 30%;  padding-left: 15px;  margin-left: 15px;  float: right;
 
 use a nav for the header link pages
+
+add a little border around the footer, plus a small icon which size is definded in a footer property.
+how do we put those next to eachother?

@@ -1,15 +1,30 @@
 
 @import url('https://fonts.googleapis.com/css?family=Inter&family=Instrument+Serif');
 
-* {
-    background-color: #3A3F42;
+
+
+body{
+    background-color: #1A623D;
     color: #FFBD4F;
-    font-family: "Inter", Arial;
+    margin: 0px;
+}
+
+    
+body > header, footer, main{
+    background-color: #3A3F42;
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: "Instrument Serif", serif;
+    margin: 0px;
+    padding: 0px;
+    
 }
+
+<!--in the link you place a picture instead of text-->
 
 <!--need a picture for the header, space between the header and body, and a border. also need space between the words.
 need the picture to contain a link. how? with alt text too ofc.-->

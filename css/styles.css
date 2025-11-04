@@ -1,58 +1,90 @@
-
 @import url('https://fonts.googleapis.com/css?family=Inter&family=Instrument+Serif');
 
 
-
-body{
-    background-color: #1A623D;
+* {
     color: #FFBD4F;
+}
+
+body {
+    background-color: #1A623D;
     margin: 0px;
 }
 
-    
-body > header, footer, main{
-    background-color: #3A3F42;
-    padding: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
+.plaatje {
+    width: 75%;
+    height: auto;
+    display: block;
 }
 
-h1, h2, h3, h4, h5, h6{
+
+body>header,
+footer,
+main {
+    background-color: #3A3F42;
+    padding: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Instrument Serif", serif;
     margin: 0px;
     padding: 0px;
-    
+
 }
 
-<!--in the link you place a picture instead of text-->
+.footer {
+    display: flex;
+    align-items: center;    
+  justify-content: space-evenly;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+}
 
-<!--need a picture for the header, space between the header and body, and a border. also need space between the words.
-need the picture to contain a link. how? with alt text too ofc.-->
+header>nav {
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+}
 
-<!--Margin/padding/border?   1A623D
-radio button 267F50
-mes
-grid garden for border and main?
-25% and 75% order?
-mobile 20% and 80%?
-text rechts maar beetje in het midden
-image bit smaller than the actual page, like 75 % of the main?-->
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
 
-<!--use img in aside tag and float to get it to the right
-aside   width: 30%;  padding-left: 15px;  margin-left: 15px;  float: right;-->
 
-<!--use a nav for the header link pages.-->
 
-<!--add a little border around the footer, plus a small icon which size is definded in a footer property.
-how do we put those next to eachother?-->
 
-<!--use a class property to make a space between the footer and article content? -->
+/*in the link you place a picture instead of text-->< !--need a picture for the header,
+space between the header and body,
+and a border. also need space between the words. need the picture to contain a link. how? with alt text too ofc.*/
 
-<!--I do very much still need the mobile versions and need to figure out how to reposition the pictures.
-Maybe add an class in an img, can one do that?-->
+/*Margin/padding/border? 1A623D radio button 267F50 mes grid garden for border and main? mobile 20% and 80%? text rechts maar beetje in het midden image bit smaller than the actual page,
+like 75 % of the main?*/
 
-<!--figure out how to make linebreaks without using br or div's!!!!-->
+/*use img in aside tag and float to get it to the right aside width: 30%;
+padding-left: 15px;
+margin-left: 15px;
+float: right;*/
 
-<!--Desperately need to change the size of the pictures.-->
+/*use a nav for the header link pages.*/
 
-<!--favicon-->
+/*add a little border around the footer, plus a small icon which size is definded in a footer property.
+how do we put those next to eachother?*/
+
+/*use a class property to make a space between the footer and article content? */
+
+/*I do very much still need the mobile versions and need to figure out how to reposition the pictures.
+Maybe add an class in an img, can one do that?*/
+
+/*figure out how to make linebreaks without using br or div's!!!!*/
+
+/*Desperately need to change the size of the pictures.*/

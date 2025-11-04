@@ -4,16 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <title>home page</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Hier wordt de stylesheet gekoppeld -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
 </head>
 
 <body>
   <header>
     <!--need a picture for this, space between the header and body, and a border-->
-    <nav>
+    <nav class="main-nav">
+      <a href="index.html">
+        <img src="img/favicon-32x32.png" alt="logo van een plant met twee blaadjes." title="logo" />
+      </a>
       <a href="Identificatie.html">Identificatie</a> <a href="Locatie.html">Locatie</a> <a
         href="Voordelen.html">Voordelen</a> <a href="Lookalikes.html">Lookalikes</a> <a href="Contact.html">Contact</a>
     </nav>
@@ -46,12 +50,28 @@
         </p>
         <!--needs to be next to text above-->
         <figure class="mobile-picture">
-          <img src="img/Common-Yarrow__18276.webp" alt="Plaatje van de plant Yarrow" title="Yarrow.">
+          <img class="plaatje" src="img/Common-Yarrow__18276.webp" alt="Plaatje van de plant Yarrow" title="Yarrow.">
           <figcaption>
             Yarrow, duizendblad.
             Deze plant is veilig om te eten en heeft een hoop medische voordelen.
           </figcaption>
-          <img src="img/poison-hemlock-flower.jpg" alt="Plaatje van de giftige plant poison hemlock."
+          <img class="plaatje" src="img/poison-hemlock-flower.jpg" alt="Plaatje van de giftige plant poison hemlock."
+            title="poison hemlock.">
+          <figcaption>
+            Poison hemlock, gevlekte scheerling.
+            Deze plant is zeer gevaarlijk, hij is namelijk zwaar giftig.
+          </figcaption>
+        </figure>
+
+        <figure class="desktop-picture column">
+          <img class="plaatje" src="img/Common-Yarrow__18276.webp" alt="Plaatje van de plant Yarrow" title="Yarrow.">
+          <figcaption>
+            Yarrow, duizendblad.
+            Deze plant is veilig om te eten en heeft een hoop medische voordelen.
+          </figcaption>
+          </figure>
+          <figure class="desktop-picture">
+          <img class="plaatje" src="img/poison-hemlock-flower.jpg" alt="Plaatje van de giftige plant poison hemlock."
             title="poison hemlock.">
           <figcaption>
             Poison hemlock, gevlekte scheerling.
@@ -84,7 +104,7 @@
           uitgelegd als het artikel waar je origneel vandaan komt.
         </p>
         <figure>
-          <img src="img/Schermafbeelding 2025-09-24 222042.png"
+          <img class="plaatje" src="img/Schermafbeelding 2025-09-24 222042.png"
             alt="Plaatje van de grow, forage, cook, ferment site van het plant verglijken deel."
             title="verglijkbare planten.">
           <figcaption><a href="https://www.growforagecookferment.com/foraging-queen-annes-lace/">Foraging site met
@@ -95,10 +115,14 @@
   </main>
 
 
-  <footer>
+  <footer class="footer">
     <!--put the small icon in it -->
     <!--link to contact page as soon as you've got it-->
-    <a href="Contact.hmtl">Contact</a>
+    <a href="index.html">
+        <img src="img/favicon-32x32.png" alt="logo van een plant met twee blaadjes." title="logo" />
+      </a>
+    <a href="Contact.html">Contact</a>
+    <p>&copy; All Rights Reserved</p>
   </footer>
 </body>
 

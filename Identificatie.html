@@ -4,16 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <title>Identification page</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Hier wordt de stylesheet gekoppeld -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
 </head>
 
 <body>
   <header>
     <!--need a picture for this, space between the header and body, and a border-->
-    <nav>
+    <nav class="main-nav">
+      <a href="index.html">
+        <img src="img/favicon-32x32.png" alt="logo van een plant met twee blaadjes." title="logo" />
+      </a>
       <a href="Identificatie.html">Identificatie</a> <a href="Locatie.html">Locatie</a> <a
         href="Voordelen.html">Voordelen</a> <a href="Lookalikes.html">Lookalikes</a> <a href="Contact.html">Contact</a>
     </nav>
@@ -51,7 +55,7 @@
           <h3>The forager's calender</h3>
         </header>
         <figure>
-          <img src="img/foragers calender.jpg" alt="Plaatje van een boekcover van het boek forager's calender."
+          <img class="plaatje" src="img/foragers calender.jpg" alt="Plaatje van een boekcover van het boek forager's calender."
             title="forager calender book.">
           <figcaption><a href="https://www.bol.com/nl/nl/f/the-forager-s-calendar/9200000094133489/">Forager's
               Calender</a></figcaption>
@@ -70,7 +74,7 @@
           <h3>Foraging with kids</h3>
         </header>
         <figure>
-          <img src="img/foraging with kids.jpg" alt="Plaatje van een boekcover van het boek foraging with kids."
+          <img class="plaatje" src="img/foraging with kids.jpg" alt="Plaatje van een boekcover van het boek foraging with kids."
             title="foraging with kids book.">
           <figcaption><a href="https://www.bol.com/nl/nl/f/foraging-with-kids/9200000087583016/">Foraging with kids</a>
           </figcaption>
@@ -92,7 +96,7 @@
           <h3>Forage site</h3>
         </header>
         <figure>
-          <img src="img/Schermafbeelding 2025-09-24 184919.png" alt="Plaatje van de grow, forage, cook, ferment site."
+          <img class="plaatje" src="img/Schermafbeelding 2025-09-24 184919.png" alt="Plaatje van de grow, forage, cook, ferment site."
             title="foraging site.">
           <figcaption><a href="https://www.growforagecookferment.com/forage/">Foraging site</a></figcaption>
         </figure>
@@ -107,10 +111,14 @@
       </article>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
     <!--put the small icon in it -->
     <!--link to contact page as soon as you've got it-->
-    <a href="Contact.hmtl">Contact</a>
+    <a href="index.html">
+        <img src="img/favicon-32x32.png" alt="logo van een plant met twee blaadjes." title="logo" />
+      </a>
+    <a href="Contact.html">Contact</a>
+    <p>&copy; All Rights Reserved</p>
   </footer>
 </body>
 

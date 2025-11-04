@@ -40,8 +40,8 @@ h6 {
 
 .footer {
     display: flex;
-    align-items: center;    
-  justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
     border-width: 3px;
     border-color: black;
     border-style: double;
@@ -53,49 +53,88 @@ header>nav {
     border-style: double;
 }
 
-.main-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-}
-
 .list {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .list ul {
-  list-style: none;    
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-input[type="submit"], input[type="radio"] {
-  background-color: #267F50;
+input[type="submit"],
+input[type="radio"] {
+    background-color: #267F50;
 }
 
-@media (min-width: 769px ){
-.mobile-picture {
-  display: none;
-}
-.desktop-picture {
-    display: block;
-}
+@media (min-width: 769px) {
+    .mobile-picture {
+        display: none;
+    }
+
+    .desktop-picture {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .column {
+        float: left;
+        width: 35%;
+        padding: 5px;
+        height: auto;
+    }
+
+    body>header,
+    footer,
+    main {
+        background-color: #3A3F42;
+        padding: 0px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .main-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        border-width: 3px;
+        border-color: black;
+        border-style: double;
+    }
 }
 
 
-@media (max-width: 768px ) {
-  .mobile-picture {
-    display: block;  
-    width:75%;
-    height: auto;
+@media (max-width: 768px) {
+    .mobile-picture {
+        display: block;
+        width: 75%;
+        height: auto;
 
-  }
-  .desktop-picture {
-    display: none;    
-  }
+    }
+
+    .desktop-picture {
+        display: none;
+    }
+
+    body>header,
+    footer,
+    main {
+        background-color: #3A3F42;
+        padding: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .main-nav {
+        border-width: 3px;
+        border-color: black;
+        border-style: double;
+    }
 }
- 
 
 
 

@@ -60,6 +60,42 @@ header>nav {
     gap: 1.5rem;
 }
 
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list ul {
+  list-style: none;    
+  padding: 0;
+  margin: 0;
+}
+
+input[type="submit"], input[type="radio"] {
+  background-color: #267F50;
+}
+
+@media (min-width: 769px ){
+.mobile-picture {
+  display: none;
+}
+.desktop-picture {
+    display: block;
+}
+}
+
+
+@media (max-width: 768px ) {
+  .mobile-picture {
+    display: block;  
+    width:75%;
+    height: auto;
+
+  }
+  .desktop-picture {
+    display: none;    
+  }
+}
+ 
 
 
 

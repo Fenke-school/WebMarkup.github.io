@@ -80,6 +80,10 @@ input[type="radio"] {
         justify-content: center;
     }
 
+    .article{
+        
+        margin-bottom: 35px;
+    }
     .column {
         float: left;
         width: 35%;

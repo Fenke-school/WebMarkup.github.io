@@ -87,6 +87,10 @@ input[type="radio"] {
         height: auto;
     }
 
+    .ugh{
+        position: static;
+    }
+
     body>header,
     footer,
     main {

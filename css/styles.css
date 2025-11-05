@@ -25,6 +25,8 @@ a:active {
   color: blue;
 }
 
+
+
 .cookie-message {
       position: fixed;       
       bottom: 0;            
@@ -75,6 +77,11 @@ body {
     display: block;
 }
 
+.groot{
+    width: 40%;
+    height: auto;
+    display: block;
+}
 
 body>header,
 footer,
@@ -132,6 +139,15 @@ input[type="radio"] {
     .mobile-picture {
         display: none;
     }
+    .please{
+    float:right;
+    width:25%;
+    height: auto;
+}
+.so{
+    float: left;
+    width: 40%;
+}
 
     .desktop-picture {
         display: block;

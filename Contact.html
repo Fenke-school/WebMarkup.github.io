@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <title>home page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="author" content="Fenke van de Reep">
   <!-- Hier wordt de stylesheet gekoppeld -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
@@ -22,33 +22,51 @@
     </nav>
   </header>
   <main>
-    <form class="list">
-      <ul>
-      <li><p>aanhef*</p></li>
-      <li><input type="radio" id="mnr" name="aanhef" value="mnr" required>
-        <label for="mnr">mnr</label>
-      </li>
-      <li><input type="radio" id="mvr" name="aanhef" value="mvr">
-        <label for="mvr">mvr</label>
-      </li>
-      <li><input type="radio" id="other" name="aanhef" value="other">
-        <label for="other">other</label>
-      </li>
-      <li><label for="name">name*</label>
-        <input type="text" id="name" name="name" required>
-      </li>
-      <li><label for="email">email</label>
-        <input type="email" value="email">
-      </li>
-      <li><label for="telefoonummer">telefoonnummer</label>
-        <input type="text" id="telefoonummer" name="telefoonnummer">
-      </li>
-      <li><label for="message">message*</label>
-        <input type="text" id="message" name="message" required>
-      </li>
-      <li><input type="submit" value="submit"></li>
-      </ul>
-    </form>
+    <article>
+      <header>
+        <h1>
+          <strong class="caps">Contact</strong>
+        </h1>
+      </header>
+      <p>
+        als u vragen of sugesties heeft over de site of de content hiervan, vul dit formulier in en dan nemen we zo snel
+        mogelijk contact op met u!
+      </p>
+    </article>
+    <article>
+      <form class="list">
+        <ul>
+          <li>
+            <legend>Contact formulier</legend>
+          </li>
+          <li>
+            <p>aanhef*</p>
+          </li>
+          <li><input type="radio" id="mnr" name="aanhef" value="mnr" required>
+            <label for="mnr">mnr</label>
+          </li>
+          <li><input type="radio" id="mvr" name="aanhef" value="mvr">
+            <label for="mvr">mvr</label>
+          </li>
+          <li><input type="radio" id="other" name="aanhef" value="other">
+            <label for="other">other</label>
+          </li>
+          <li><label for="name">name*</label>
+            <input type="text" id="name" name="name" required>
+          </li>
+          <li><label for="email">email</label>
+            <input type="email" value="email">
+          </li>
+          <li><label for="telefoonummer">telefoonnummer</label>
+            <input type="text" id="telefoonummer" name="telefoonnummer">
+          </li>
+          <li><label for="message">message*</label>
+            <input type="text" id="message" name="message" required>
+          </li>
+          <li><input type="submit" value="submit"></li>
+        </ul>
+      </form>
+    </article>
   </main>
 
   <!--so now just a full form ig-->
@@ -57,8 +75,8 @@
     <!--put the small icon in it -->
     <!--link to contact page as soon as you've got it-->
     <a href="index.html">
-        <img src="img/favicon-32x32.png" alt="logo van een plant met twee blaadjes." title="logo" />
-      </a>
+      <img src="img/favicon-32x32.png" alt="logo van een plant met twee blaadjes." title="logo" />
+    </a>
     <a href="Contact.html">Contact</a>
     <p>&copy; All Rights Reserved</p>
   </footer>

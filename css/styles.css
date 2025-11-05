@@ -5,9 +5,68 @@
     color: #FFBD4F;
 }
 
+.caps {
+  text-transform: uppercase;
+}
+
+a:link {
+  color: #FFBD4F;
+}
+
+a:visited {
+  color: FFBD4F;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: blue;
+}
+
+.cookie-message {
+      position: fixed;       
+      bottom: 0;            
+      left: 0;
+      width: 100%;          
+      background-color: #313436;
+      color: #FFBD4F;           
+      text-align: center;
+      padding: 16px;
+      z-index: 9999;         
+    }
+
+    
+      #acceptCookies {
+      display: none;
+    }
+    #acceptCookies:checked + .cookie-message {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+  /*make the label a button*/
+    label.button {
+      background-color: #267F50;
+      padding: 4px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    label.button:hover{
+        background-color: #1A623D;
+    }
+    
 body {
     background-color: #1A623D;
     margin: 0px;
+  letter-spacing: normal;
+  line-height: normal;
+  text-indent: 5px;
+  word-spacing:normal;
 }
 
 .plaatje {
@@ -145,10 +204,9 @@ input[type="radio"] {
 }
 
 
+/*smaller pictures*/
 
-/*in the link you place a picture instead of text-->< !--need a picture for the header,
-space between the header and body,
-and a border. also need space between the words. need the picture to contain a link. how? with alt text too ofc.*/
+/*footer connected to the main*/
 
 /*Margin/padding/border? 1A623D radio button 267F50 mes grid garden for border and main? mobile 20% and 80%? text rechts maar beetje in het midden image bit smaller than the actual page,
 like 75 % of the main?*/
@@ -158,16 +216,13 @@ padding-left: 15px;
 margin-left: 15px;
 float: right;*/
 
-/*use a nav for the header link pages.*/
 
-/*add a little border around the footer, plus a small icon which size is definded in a footer property.
+/*add a small icon which size is definded in a footer property.
 how do we put those next to eachother?*/
 
 /*use a class property to make a space between the footer and article content? */
 
-/*I do very much still need the mobile versions and need to figure out how to reposition the pictures.
-Maybe add an class in an img, can one do that?*/
+/*I do maybe still need the mobile versions*/
 
-/*figure out how to make linebreaks without using br or div's!!!!*/
 
 /*Desperately need to change the size of the pictures.*/

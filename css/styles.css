@@ -6,69 +6,70 @@
 }
 
 .caps {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 a:link {
-  color: #FFBD4F;
+    color: #FFBD4F;
 }
 
 a:visited {
-  color: #FFBD4F;
+    color: #FFBD4F;
 }
 
 a:hover {
-  color: aqua;
+    color: aqua;
 }
 
 a:active {
-  color: blue;
+    color: blue;
 }
 
 
 
 .cookie-message {
-      position: fixed;       
-      bottom: 0;            
-      left: 0;
-      width: 100%;          
-      background-color: #313436;
-      color: #FFBD4F;           
-      text-align: center;
-      padding: 16px;
-      z-index: 9999;         
-    }
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #313436;
+    color: #FFBD4F;
+    text-align: center;
+    padding: 16px;
+    z-index: 9999;
+}
 
-    
-      #acceptCookies {
-      display: none;
-    }
-    #acceptCookies:checked + .cookie-message {
-      opacity: 0;
-      pointer-events: none;
-    }
 
-  /*make the label a button*/
-    label.button {
-      background-color: #267F50;
-      padding: 4px 8px;
-      border-radius: 5px;
-      cursor: pointer;
-      display: inline-block;
-      margin-left: 10px;
-    }
+#acceptCookies {
+    display: none;
+}
 
-    label.button:hover{
-        background-color: #1A623D;
-    }
-    
+#acceptCookies:checked+.cookie-message {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/*makes the label a button*/
+label.button {
+    background-color: #267F50;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+label.button:hover {
+    background-color: #1A623D;
+}
+
 body {
     background-color: #1A623D;
     margin: 0px;
-  letter-spacing: normal;
-  line-height: normal;
-  text-indent: 5px;
-  word-spacing:normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-indent: 5px;
+    word-spacing: normal;
 }
 
 .plaatje {
@@ -77,7 +78,7 @@ body {
     display: block;
 }
 
-.groot{
+.groot {
     width: 40%;
     height: auto;
     display: block;
@@ -145,20 +146,23 @@ input[type="radio"] {
         display: flex;
         justify-content: center;
     }
-    .please{
-    float:right;
-    width:25%;
-    height: auto;
-}
-.so{
-    float: left;
-    width: 40%;
-}
 
-    .article{
-        
+    .please {
+        float: right;
+        width: 25%;
+        height: auto;
+    }
+
+    .so {
+        float: left;
+        width: 40%;
+    }
+
+    .article {
+
         margin-bottom: 35px;
     }
+
     .column {
         float: left;
         width: 35%;
@@ -166,7 +170,7 @@ input[type="radio"] {
         height: auto;
     }
 
-    .ugh{
+    .ugh {
         position: static;
     }
 
@@ -219,26 +223,3 @@ input[type="radio"] {
     }
 }
 
-
-/*smaller pictures*/
-
-/*footer connected to the main*/
-
-/*Margin/padding/border? 1A623D radio button 267F50 mes grid garden for border and main? mobile 20% and 80%? text rechts maar beetje in het midden image bit smaller than the actual page,
-like 75 % of the main?*/
-
-/*use img in aside tag and float to get it to the right aside width: 30%;
-padding-left: 15px;
-margin-left: 15px;
-float: right;*/
-
-
-/*add a small icon which size is definded in a footer property.
-how do we put those next to eachother?*/
-
-/*use a class property to make a space between the footer and article content? */
-
-/*I do maybe still need the mobile versions*/
-
-
-/*Desperately need to change the size of the pictures.*/

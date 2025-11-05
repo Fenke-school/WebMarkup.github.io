@@ -2,7 +2,7 @@
 
 
 * {
-    color: #ffbc48;
+    color: #FFBD4F;
 }
 
 .caps {
@@ -10,11 +10,11 @@
 }
 
 a:link {
-  color: #ffbc48;
+  color: #FFBD4F;
 }
 
 a:visited {
-  color: FFBD4F;
+  color: #FFBD4F;
 }
 
 a:hover {
@@ -33,7 +33,7 @@ a:active {
       left: 0;
       width: 100%;          
       background-color: #313436;
-      color: #ffbc48;           
+      color: #FFBD4F;           
       text-align: center;
       padding: 16px;
       z-index: 9999;         
@@ -139,6 +139,12 @@ input[type="radio"] {
     .mobile-picture {
         display: none;
     }
+
+    .desktop-picture {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
     .please{
     float:right;
     width:25%;
@@ -148,12 +154,6 @@ input[type="radio"] {
     float: left;
     width: 40%;
 }
-
-    .desktop-picture {
-        display: block;
-        display: flex;
-        justify-content: center;
-    }
 
     .article{
         
